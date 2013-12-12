@@ -1,0 +1,23 @@
+{
+  "name": "reverse-resolver",
+  "version": "0.1.0",
+  "description": "Service for checking public IP address and hostname",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andris9/reverse-resolver.git"
+  },
+  "keywords": [
+    "DNS"
+  ],
+  "author": "Andris Reinman",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/andris9/reverse-resolver/issues"
+  },
+  "homepage": "https://github.com/andris9/reverse-resolver"
+}

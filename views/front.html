@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Ip address and hostname resolving as a service</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+    </head>
+    <body>
+
+        <a href="https://github.com/andris9/reverse-resolver"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+        <div class="container">
+
+            <div class="page-header">
+                <h1>remoteAddress.net</h1>
+                <p class="lead">Resolve your public IP address and hostname.</p>
+            </div>
+            <pre>
+$ curl <a href="/api/ip">http://www.remoteAddress.net/api/ip</a>
+%RESPONSE%
+            </pre>
+
+            <blockquote><strong>NB!</strong> <code>hostname</code> is only included in the response if it could be resolved.</blockquote>
+
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    </body>
+</html>
