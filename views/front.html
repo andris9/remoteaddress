@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Ip address and hostname resolving as a service</title>
+        <title>IP address and hostname resolving as a service</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
@@ -23,6 +23,8 @@ $ curl <a href="/api/ip">http://www.remoteAddress.net/api/ip</a>
             </pre>
 
             <blockquote><strong>NB!</strong> <code>hostname</code> is only included in the response if it could be resolved.</blockquote>
+
+            <p>This service resolves hostnames and IP addresses for <a href="https://github.com/andris9/nodemailer#global-transport-options">Nodemailer</a> <code>resolveHostname</code> option. Powered by <a href="https://www.openshift.com/">OpenShift</a></p>
 
         </div>
 
